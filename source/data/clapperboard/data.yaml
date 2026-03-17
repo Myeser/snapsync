@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Clapperboard', 'objects', 'slateboard']
+
+roboflow:
+  workspace: snapsync
+  project: snapsync_slates-kqhm7
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/snapsync/snapsync_slates-kqhm7/dataset/2
